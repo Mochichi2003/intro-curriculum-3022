@@ -4,7 +4,8 @@
   "description": "秘密の匿名掲示板",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,17 @@
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 100,
+    "bracketSpacing": true
   }
 }
